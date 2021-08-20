@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "boxingUnboxing", "boxingUnboxing\boxingUnboxing.csproj", "{096B776B-5783-4656-881B-CEB555495745}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{096B776B-5783-4656-881B-CEB555495745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096B776B-5783-4656-881B-CEB555495745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096B776B-5783-4656-881B-CEB555495745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096B776B-5783-4656-881B-CEB555495745}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A8D9691-9FEF-4147-ACA9-0A94DA0A3007}
+	EndGlobalSection
+EndGlobal
