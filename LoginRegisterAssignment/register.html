@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script>
+       function register(){
+         console.log(document.forms[0].reportValidity())
+          if(document.forms[0].reportValidity()){
+            window.location.href = "file:///C:/Users/rm29116/Downloads/login.html";
+            e.preventDefault();
+          }
+       }
+     </script>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form id="formId" onsubmit="return false">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name">
+          </div>
+          <div class="input-box">
+          <span class="details">City</span>
+          <div class="custom_select">
+            <select>
+              <option value="">Select</option>
+
+              <option value="male">Pune</option>
+              <option value="female">Mumbai</option>
+            </select>
+          </div>
+       </div> 
+           
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" placeholder="Enter your Address" required>
+          </div>
+        <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password">
+          </div>
+
+        </div>
+        
+
+
+        <div class="button" onClick="register()">
+          <input type="submit" value="Register">
+        </div>
+        <p>Already have an Account? <a href="login.html">Sign-In</a></p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

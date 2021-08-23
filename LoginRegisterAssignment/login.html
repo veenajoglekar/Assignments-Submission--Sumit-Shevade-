@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form | CodingLab </title>
+    <link rel="stylesheet" href="style2.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script>
+       function login(){
+           let user = document.getElementById('user').value;
+           let pass = document.getElementById('pass').value;
+          if(document.forms[0].reportValidity() && user=='admin' && pass=='123'){
+            window.location.href = "dashboard.html";
+            e.preventDefault();
+          }
+       }
+     </script>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Login</div>
+    <div class="content">
+      <form id="formId" onsubmit="return false">
+        <div class="user-details">
+           
+          <div class="input-box new">
+            <span class="details">Username</span>
+            <input id="user" type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box new">
+            <span class="details">Password</span>
+            <input id="pass" type="text" placeholder="Enter your password">
+          </div>
+
+        </div>
+        
+
+
+        <div class="button">
+          <input type="submit" value="Login" onclick="login()">
+        </div>
+        <p>Don't have an Account? <a href="register.html">Sign-Up</a></p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
